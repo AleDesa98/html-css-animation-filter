@@ -154,3 +154,19 @@
         transform: rotate(1turn);
     }
 }
+
+/* ex 11 */
+.ex-11-icon:hover {
+    animation: rotazione-veloce 2s linear;
+}
+@keyframes rotazione-veloce {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}

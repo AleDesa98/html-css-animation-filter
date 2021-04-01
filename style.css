@@ -134,3 +134,13 @@
     filter: grayscale(0.5) sepia(0.5);
     border-radius: 25px;
 }
+
+/* ex 9 */
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 25px;
+    transform: scale(1.5);
+}

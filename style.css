@@ -144,3 +144,13 @@
     border-radius: 25px;
     transform: scale(1.5);
 }
+
+/* ex 10 */
+.ex-10-icon {
+    animation: rotazione 1s linear infinite;
+}
+@keyframes rotazione {
+    0% {
+        transform: rotate(1turn);
+    }
+}
